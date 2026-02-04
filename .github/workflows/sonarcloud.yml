@@ -27,4 +27,8 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@v2
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          args: >
+            -Dsonar.projectKey=kamatchi-2005_assignment-backend
+            -Dsonar.organization=kamatchi-2005
+            -Dsonar.sources=.
