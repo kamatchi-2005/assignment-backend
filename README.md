@@ -20,7 +20,7 @@ Open backend URL once before using the frontend
 📊 Project Presentation
 
 👉 Download Project PPT:https://github.com/kamatchi-2005/assignment-backend/blob/main/Student-Assignment-Tracker-System.pptx
-(Add PPT link here)
+
 
 🛠️ Tech Stack
 
